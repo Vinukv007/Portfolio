@@ -102,6 +102,22 @@
     transition: color 0.2s;
   }
   .nav-links a:hover { color: var(--text); }
+  .nav-resume {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--accent);
+    text-decoration: none;
+    border: 1px solid var(--accent-line);
+    padding: 0.35rem 0.85rem;
+    border-radius: 3px;
+    letter-spacing: 0.04em;
+    transition: background 0.2s, color 0.2s;
+    white-space: nowrap;
+  }
+  .nav-resume:hover { background: var(--accent-bg); color: var(--accent); }
 
   /* ─── HERO ─── */
   .hero {
@@ -513,6 +529,7 @@
       <li><a href="#skills">Skills</a></li>
       <li><a href="#contact">Contact</a></li>
     </ul>
+    <a class="nav-resume" href="./Vinu_K_Vijayakumar_Resume.pdf" target="_blank" download>↓ Resume</a>
   </div>
 </nav>
 
